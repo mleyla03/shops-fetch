@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,600;1,600&display=swap');
+body{
+    width: 100%;
+    height: 100vh;
+
+}
+.contaiber{
+    width: 90px;
+}
+.images {
+    display: none;
+    position: absolute; 
+    width: 502px;
+    z-index: 66;
+   background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    height: 502px;
+   
+  }
+p{
+    font-family: 'Poltawski Nowy', serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+
+}
+p::selection{
+    background-color:rgb(16, 146, 146); 
+    color: white;
+}
+li{
+    font-family: 'Poltawski Nowy', serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+li::selection{
+    background-color: rgb(16, 146, 146);
+    color: white;
+}
+h1{
+    font-weight: 600;
+    font-family: 'Poltawski Nowy', serif;
+    font-style: italic;
+}
+h1::selection{
+  background-color: rgb(16, 146, 146);
+  color: white;
+}
+
